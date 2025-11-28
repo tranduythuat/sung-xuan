@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Thông tin Open Graph cho ảnh đại diện -->
+    <meta property="og:image" content="" />
+    <meta property="og:image:width" content="600" /> <!-- Chiều rộng ảnh đại diện -->
+    <meta property="og:image:height" content="300" /> <!-- Chiều cao ảnh đại diện -->
+
+    <!-- Các thông tin khác cho Open Graph -->
+    <meta property="og:title" content="Sung - Xuân" />
+    <meta property="og:description" content="Dae Sung - Hạnh Xuân" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./resources/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Dae Sung - Hạnh Xuân</title>
+</head>
+<body>
+   <div class="container">
+        <div class="container-wrapper">
+            <div class="box-p1">
+                <div class="box-dott">
+                    <i class="fa-solid fa-circle"></i>
+                    <label for="" class="lb1-dot">Save The Date</label>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <label for="" class="lb1-box">Park Dae Sung</label>
+                <label for="" class="lb11-box">&</label>
+                <label for="" class="lb1-box">Đỗ Lê Hạnh Xuân</label>
+                <img src="./resources/anh/h-o-08.png" alt="" class="img-boxp1">
+               <div class="box-dot">
+                    <i class="fa-solid fa-circle"></i>
+                    <label for="" class="lb-dot2">Trân trọng kính mời quý vị</label>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <label for="" class="lb1-box1">DÀNH THỜI GIAN QUÝ GIÁ ĐẾN THAM DỰ LỄ CƯỚI <strong>CÔ DÂU VÀ CHÚ RỂ</strong></label>
+                <label for="" class="lb2-box1">/ 신랑·신부의 결혼식에 귀한 시간을 내어 참석해 주시기를 정중히 초대드립니다. /</label>
+                <div class="box-btn-top">
+                    <a href="./vietnam.html" class="btn-box">XEM THIỆP MỜI VIỆT NAM <br> <span class="han">/ 베트남어 청첩장 보기 /</span></a>
+                    <a href="./korea.html" class="btn-box">XEM THIỆP MỜI HÀN QUỐC <br> <span class="han">/ 한국어 청첩장 보기 /</span></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    <script>
+        window.onload = function() {
+    // Lấy tất cả các phần tử cho các hiệu ứng fade-down, fade-up, fade-right, fade-left, zoom-in
+    const fadeDownElements = document.querySelectorAll('.lb1-box, .lb2-p1, .lb3-p1, .lb4-p1, .lb1-p2, .lb2-p2, .box-timeline, .lb-til');  // Các phần tử fade-down
+    const fadeUpElements = document.querySelectorAll('.lb3-p2, .lb-add, .timeline, .in-fe, .container-check, .inp-ten, .lb-text, #loi-chuc');    // Các phần tử fade-up
+    const fadeRightElements = document.querySelectorAll('.lb1-p1, .img1');                               // Các phần tử fade-right
+    const fadeLeftElements = document.querySelectorAll('.box-nam, .img2');                                // Các phần tử fade-left
+    const zoomInElements = document.querySelectorAll('.dot-p1, .lb11-box, .img1-p2, .xacnhan');                // Các phần tử zoom-in
+
+    // Cấu hình của IntersectionObserver
+    const options = {
+        root: null, // Theo mặc định là viewport
+        threshold: 0.5 // Kích hoạt khi 50% phần tử hiển thị trong viewport
+    };
+
+    // Tạo đối tượng IntersectionObserver để theo dõi sự xuất hiện và mất đi của phần tử
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Nếu phần tử xuất hiện trong viewport, thêm lớp "visible"
+                entry.target.classList.add('visible');
+            } else {
+                // Nếu phần tử không còn trong viewport, xóa lớp "visible"
+                entry.target.classList.remove('visible');
+            }
+        });
+    }, options);
+
+    // Quan sát các phần tử theo từng hiệu ứng
+    fadeDownElements.forEach(element => observer.observe(element));
+    fadeUpElements.forEach(element => observer.observe(element));
+    fadeRightElements.forEach(element => observer.observe(element));
+    fadeLeftElements.forEach(element => observer.observe(element));
+    zoomInElements.forEach(element => observer.observe(element));
+};
+
+    </script>
+</body>
+</html>

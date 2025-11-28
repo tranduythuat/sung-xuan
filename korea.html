@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Thông tin Open Graph cho ảnh đại diện -->
+    <meta property="og:image" content="" />
+    <meta property="og:image:width" content="600" /> <!-- Chiều rộng ảnh đại diện -->
+    <meta property="og:image:height" content="400" /> <!-- Chiều cao ảnh đại diện -->
+
+    <!-- Các thông tin khác cho Open Graph -->
+    <meta property="og:title" content="Sung - Xuân" />
+    <meta property="og:description" content="Dae Sung - Hạnh Xuân" />    
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./resources/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>박대성 - 도 래 한 순</title>
+</head>
+<body>
+    <div id="loading-container" class="loading-container">
+        <div class="spinner"></div>
+    </div>
+    <div class="container">
+        <div class="container-wrapper">
+            <div class="box-circle">
+                <div class="circle" id="musicCircle">
+                    <img src="././resources/anh/cd.png" alt="Music Icon" class="circle-image">
+                    <audio id="audio" src="./resources/audio/maybe.mp3" loop></audio>
+                </div>
+                <label for="audio" class="lb-circle">No Music? <br> Click Me</label>
+            </div>
+        <div class="box-top">
+            <img src="./resources/anh/flow1-08.png" alt="" class="img1-p1">
+            <img src="./resources/anh/h-o-08.png" alt="" class="img2-p1">
+            <div class="box-dot">
+                    <i class="fa-solid fa-circle"></i>
+                    <label for="" class="dot-p1">Always and forever</label>
+                    <i class="fa-solid fa-circle"></i>
+            </div>
+             <label for="" class="lb1-box">박대성</label>
+            <label for="" class="lb11-box">&</label>
+            <label for="" class="lb1-box">도 래 한 순</label>
+            <img src="./resources/anh/flow2-08.png" alt="" class="img3-p1">
+            <label for="" class="lb1-p11">신랑 측: 아버지 박창훈, 어머니 래 티 미 띤 <br>
+                신부 측: 아버지 도 득 한 </label>
+            <label for="" class="lb2-p1"></label>
+            <label for="" class="lb3-p11">신랑과 신부의 결혼식에 귀한 걸음을 하시어 함께 축복해 주시기 바랍니다.</label>
+            <label for="" class="lb4-p1">2025년12월27일 - 오후 6시</label>
+            <div class="box-calendar">
+                <label for="" class="lb-cal">박대성 & 도 래 한 순 웨딩 일정</label>
+                <img src="./resources/anh/cal-ko-08.png" alt="" class="img-cal">
+            </div>
+
+            <div class="container-coutdown">
+            <!-- <h1 id="header">COUNTDOWN TO EVENT</h1> -->
+            <div id="countdown">
+                <ul>
+                <li><span id="days"></span>날</li>
+                <li><span id="hours"></span>시간 </li>
+                <li><span id="minutes"></span>분 </li>
+                <li><span id="seconds"></span>초 </li>
+                </ul>
+            </div>
+            </div>
+
+             <div class="img-hoa">
+                <img src="./resources/anh/hoa1-01.png" alt="" class="img-hoaa">
+            </div>
+
+        </div>
+
+        <div class="box-p2">
+            <label for="" class="lb1-p2">SOFTWATER RESTAURANT</label>
+            <label for="" class="lb2-p22">베트남 하노이시 홍하동 안즈엉</label>
+            <img src="./resources/anh/map-08.png" alt="" class="img1-p2">
+            <a href="https://maps.app.goo.gl/dbRKPj37Kt4A6KUz8" class="btn-map" target="_blank">지도 보기</a>
+            <img src="./resources/anh/flow3-08.png" alt="" class="img2-p2">
+            <!-- <label for="" class="lb3-p2">TIMELINE</label>
+            <div class="box-timeline">
+                <div class="timeline-item">
+                    <label for="" class="lb-timeline1">17:00</label>
+                    <img src="./resources/anh/icon1-08.png" alt="" class="img-timeline">
+                    <label for="" class="lb-timeline2">하객 맞이</label>
+                </div>
+
+                <div class="timeline-item">
+                    <label for="" class="lb-timeline1">17:30</label>
+                    <img src="./resources/anh/icon2-08.png" alt="" class="img-timeline">
+                    <label for="" class="lb-timeline2">본식</label>
+                </div>
+
+                <div class="timeline-item">
+                    <label for="" class="lb-timeline1">18:00</label>
+                    <img src="./resources/anh/icon3-08.png" alt="" class="img-timeline">
+                    <label for="" class="lb-timeline2">피로연 시작</label>
+                </div>
+            </div> -->
+        </div>
+           
+
+         <div class="box-xacnhan-thamdu1">
+            <div class="box-thamdu1">
+                <!-- <img src="./resources/anh/THAMDU-08.png" alt="" class="img-xntd1"> -->
+                 <label for="" class="lbb-thamdu">참석여부를 알려주세요</label>
+            </div>
+            <div class="box-thamdu23">
+                <img src="./resources/anh/flow4-08.png" alt="" class="img-xntd22">
+            </div>
+         </div>
+            <form action="" name="resources-kor">
+               <div class="til-label">
+                    <label for="" class="lb-til1">정성껏 준비할 수 있도록 참석 여부를 알려주세요!</label>
+               </div>
+                <div class="container-check">
+                    <input class="box-feed" type="radio" value="꼭 갈게요" id="yes" name="보내기">
+                    <label class="check-box" for="yes">
+                        <h3 class="til-check">꼭 갈게요</h3>
+                    </label>
+                    <input class="box-feed" type="radio" value="아쉽지만 어려울 것 같아요" id="no" name="보내기">
+                    <label class="check-box" for="no"> 
+                        <h3 class="til-check">아쉽지만 어려울 것 같아요</h3>
+                    </label>
+                </div>
+                
+                <div class="box-ten">
+                    <input required class="inp-ten" type="text"  name="성함" placeholder="성함">
+                    <input required class="inp-ten" type="text" name="동반 인원 수" placeholder="동반 인원 수" maxlength="1" title="Vui lòng nhập đúng 1 chữ số" pattern="\d" />
+                    <input required class="inp-ten" type="tel" name="연락처" placeholder="연락처" maxlength="11" pattern="[0-9]{11}" title="Nhập đúng 10 chữ số" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
+                    <textarea id="loi-chuc" name="소망" rows="4" cols="70" placeholder="신랑 신부에게 전하고 싶은 메시지"></textarea>
+                </div>
+                <div class="wrapper">
+                    <button class="xacnhan" type="submit">보내기</button>
+                </div>
+            </form>
+
+            <div class="box-end-korea">
+                 <div class="box-imgend">
+                    <img src="./resources/anh/h-o-08.png" alt="" class="img-end12">
+                </div>
+                <label for="" class="lb-end11">마음 전하실곳</label>
+                <a href="qr-korea.html" class="btn-end">계좌번호</a>
+                <img src="./resources/anh/thank-08.png" alt="" class="img-end2">
+                <p class="p-endd">귀하의 참석은 저희 가족에게 큰 영광입니다.
+                결혼식 날짜가 가까워져 계획에 변동이 생기실 경우, 필요시 이 웹사이트를 통해 정보를 업데이트해 주세요.<br> <br>
+
+                    예기치 못한 변경 사항이 생기면 아래 번호로 신랑 신부에게 직접 연락 부탁드립니다. <br><span class="blue"><strong>신부 - 0396335959; 신랑 - 0832857982</strong></span></p>
+            </div>
+           
+           
+        </div>
+    </div>
+    
+
+
+
+
+    <script>
+window.onload = function() {
+    // Lấy tất cả các phần tử cho các hiệu ứng
+    const fadeDownElements = document.querySelectorAll('.lb1-box, .lb2-p1, .lb3-p1, .lb4-p1, .lb1-p2, .lb2-p2, .box-timeline, .lb-til');
+    const fadeUpElements = document.querySelectorAll('.lb3-p2, .lb-add, .timeline, .in-fe, .container-check, .inp-ten, .lb-text, #loi-chuc');
+    const fadeRightElements = document.querySelectorAll('.lb1-p1, .img1');
+    const fadeLeftElements = document.querySelectorAll('.box-nam, .img2');
+    const zoomInElements = document.querySelectorAll('.dot-p1, .lb11-box, .img1-p2, .xacnhan');
+
+    // Cấu hình IntersectionObserver
+    const options = {
+        root: null, // Viewport
+        threshold: 0.2, // Kích hoạt khi 20% phần tử hiển thị
+        rootMargin: '30px' // Kích hoạt sớm hơn 30px
+    };
+
+    // Tạo IntersectionObserver
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            // Thêm độ trễ để giảm nhấp nháy
+            setTimeout(() => {
+                if (entry.isIntersecting) {
+                    // Thêm lớp visible khi phần tử xuất hiện
+                    entry.target.classList.add('visible');
+                } else {
+                    // Xóa lớp visible khi phần tử ra khỏi viewport
+                    entry.target.classList.remove('visible');
+                }
+            }, 100); // Độ trễ 100ms
+        });
+    }, options);
+
+    // Quan sát các phần tử
+    fadeDownElements.forEach(element => observer.observe(element));
+    fadeUpElements.forEach(element => observer.observe(element));
+    fadeRightElements.forEach(element => observer.observe(element));
+    fadeLeftElements.forEach(element => observer.observe(element));
+    zoomInElements.forEach(element => observer.observe(element));
+};
+
+    </script>
+    <script>
+const main = () => {
+  const second = 1000;
+  const minute = second * 60;
+  const hour = minute * 60;
+  const day = hour * 24;
+      
+  const EVENTDATE = new Date('December 27, 2025, 18:00:00');
+ 
+  const countDown = new Date(EVENTDATE).getTime();
+  const x = setInterval(() => {
+        const now = new Date().getTime();
+        const distance = countDown - now;
+
+        if (distance <= 0) {
+          clearInterval(x);
+          document.getElementById("days").innerText = 0;
+          document.getElementById("hours").innerText = 0;
+          document.getElementById("minutes").innerText = 0;
+          document.getElementById("seconds").innerText = 0;
+          return;
+        }
+
+        document.getElementById("days").innerText = Math.floor(distance / day);
+        document.getElementById("hours").innerText = Math.floor((distance % day) / hour);
+        document.getElementById("minutes").innerText = Math.floor((distance % hour) / minute);
+        document.getElementById("seconds").innerText = Math.floor((distance % minute) / second);
+      }, 1000); // Updated delay to 1000ms for smoother updates
+}
+
+main();
+    </script>
+<script>
+       const scriptURL = 'https://script.google.com/macros/s/AKfycbwXYWfZIw1ytSwgDOjFRe6iHFUCIoFJv0pZ-3slOLROfSvzRAxAypmwW6JPLpEDmIg/exec';
+        const form = document.forms['resources-kor'];
+
+        form.addEventListener('submit', e => {
+            e.preventDefault(); // Ngừng việc gửi form mặc định
+
+            document.getElementById('loading-container').style.display = 'flex';
+
+            // Gửi dữ liệu form đi
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Nếu dữ liệu gửi thành công, làm mới lại form
+                        form.reset(); // Làm mới lại form
+
+                        document.getElementById('loading-container').style.display = 'none';
+
+                        Swal.fire({
+                            icon: 'success',
+                            title: '확인 완료! ',
+                            text: '답장 감사합니다. 보내주신 내용은 신랑 신부에게 잘 전달했어요!',
+                            imageWidth: 300,
+                            imageHeight: 200,
+                            confirmButtonText: '닫다',
+                            background: '#f8f8f8',
+                            padding: '20px',
+                            customClass: {
+                                popup: 'custom-popup',
+                                title: 'custom-title',
+                                confirmButton: 'custom-confirm-button'
+                            },
+                            didOpen: () => {
+                                document.querySelector('.swal2-popup').style.borderRadius = '10px'; // Bo tròn các góc
+                            }
+                        });
+                    } else {
+                        // Nếu gặp lỗi khi gửi dữ liệu
+                        console.error('Error!', response);
+
+                        document.getElementById('loading-container').style.display = 'none';
+
+                        Swal.fire({
+                            title: 'Oops!',
+                            text: 'Lỗi mất rồi thử lại giúp chúng mình nhé',
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                })
+                .catch(error => {
+                    // Xử lý lỗi nếu có
+                    console.error('Error!', error.message);
+
+                    document.getElementById('loading-container').style.display = 'none';
+
+                    Swal.fire({
+                        title: 'Oops!',
+                        text: 'Lỗi mất rồi thử lại giúp chúng mình nhé',
+                        icon: 'error',
+                        confirmButtonText: 'OK'
+                    });
+                });
+        });
+</script>
+
+   <script>
+const musicCircle = document.getElementById("musicCircle");
+const audio = document.getElementById("audio");
+const videoIframe = document.getElementById("video");
+
+// Thêm sự kiện khi nhấn vào vòng tròn
+musicCircle.addEventListener("click", toggleMusic);
+
+// Hàm điều khiển việc phát hoặc tạm dừng nhạc
+function toggleMusic() {
+    if (audio.paused) {
+        audio.play(); // Phát nhạc
+        musicCircle.classList.add("spin"); // Bắt đầu xoay
+    } else {
+        audio.pause(); // Dừng nhạc
+        musicCircle.classList.remove("spin"); // Dừng xoay
+    }
+}
+
+// Tạo đối tượng YouTube Player API
+let player;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('video', {
+        events: {
+            'onStateChange': onPlayerStateChange
+        }
+    });
+}
+
+// Lắng nghe sự kiện trạng thái của video
+function onPlayerStateChange(event) {
+    // Khi video bắt đầu phát (state = 1), dừng nhạc và dừng xoay vòng tròn
+    if (event.data === YT.PlayerState.PLAYING) {
+        if (!audio.paused) {
+            audio.pause(); // Dừng nhạc
+            musicCircle.classList.remove("spin"); // Dừng xoay vòng tròn
+        }
+    }
+}
+
+// Tải API YouTube
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+</script>
+</body>
+</html>

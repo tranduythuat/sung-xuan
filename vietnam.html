@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Thông tin Open Graph cho ảnh đại diện -->
+    <!-- <meta property="og:image" content="https://yenstudio.com.vn/resources.jpg" /> -->
+    <meta property="og:image:width" content="600" /> <!-- Chiều rộng ảnh đại diện -->
+    <meta property="og:image:height" content="400" /> <!-- Chiều cao ảnh đại diện -->
+
+    <!-- Các thông tin khác cho Open Graph -->
+    <meta property="og:title" content="Sung - Xuân" />
+    <meta property="og:description" content="Dae Sung - Hạnh Xuân" />
+    <!-- <meta property="og:url" content="" /> -->
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./resources/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Dae Sung - Hạnh Xuân</title>
+</head>
+<body>
+    <div id="loading-container" class="loading-container">
+        <div class="spinner"></div>
+    </div>
+    <div class="container">
+        <div class="container-wrapper">
+            <div class="box-circle">
+                <div class="circle" id="musicCircle">
+                    <img src="././resources/anh/cd.png" alt="Music Icon" class="circle-image">
+                    <audio id="audio" src="./resources/audio/maybe.mp3" loop></audio>
+                </div>
+                <label for="audio" class="lb-circle">No Music? <br> Click Me</label>
+            </div>
+        <div class="box-top">
+            <img src="./resources/anh/flow1-08.png" alt="" class="img1-p1">
+            <img src="./resources/anh/h-o-08.png" alt="" class="img2-p1">
+            <div class="box-dot">
+                    <i class="fa-solid fa-circle"></i>
+                    <label for="" class="dot-p1">Always and forever</label>
+                    <i class="fa-solid fa-circle"></i>
+            </div>
+             <label for="" class="lb1-box">Park Dae Sung</label>
+            <label for="" class="lb11-box">&</label>
+            <label for="" class="lb1-box">Đỗ Lê Hạnh Xuân</label>
+            <img src="./resources/anh/flow2-08.png" alt="" class="img3-p1">
+            <label for="" class="lb1-p1"><strong>NHÀ TRAI: </strong>ông Park Chang Hoon - bà Lê Thị Mỹ Tiên <br>
+                                    <strong>NHÀ GÁI: </strong>ông Đỗ Đức Hạnh</label>
+            <label for="" class="lb2-p1">Trân trọng kính mời quý vị</label>
+            <label for="" class="lb3-p1">ĐẾN THAM DỰ LỄ CƯỚI CỦA CÔ DÂU VÀ CHÚ RỂ VÀO:</label>
+            <label for="" class="lb4-p1">THỨ BẢY | 18:00 | 27.12.2025</label>
+            <div class="box-calendar">
+                <label for="" class="lb-cal">Lịch cưới của Sung và Xuân</label>
+                <img src="./resources/anh/cal-08.png" alt="" class="img-cal">
+            </div>
+
+            <div class="container-coutdown">
+            <!-- <h1 id="header">COUNTDOWN TO EVENT</h1> -->
+            <div id="countdown">
+                <ul>
+                <li><span id="days"></span>NGÀY</li>
+                <li><span id="hours"></span>GIỜ</li>
+                <li><span id="minutes"></span>PHÚT</li>
+                <li><span id="seconds"></span>GIÂY</li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="img-hoa">
+                <img src="./resources/anh/hoa1-01.png" alt="" class="img-hoaa">
+            </div>
+
+        </div>
+
+        <div class="box-p2">
+            <label for="" class="lb1-p2">Nhà Hàng Softwater</label>
+            <label for="" class="lb2-p2">194 Đ. Hoàng Văn Thụ, Phường 9, Phú Nhuận, Thành phố Hồ Chí Minh</label>
+            <img src="./resources/anh/map-08.png" alt="" class="img1-p2">
+            <a href="https://maps.app.goo.gl/KLWd9Jb6yfDBeerA9?g_st=ipc" class="btn-map" target="_blank">XEM BẢN ĐỒ</a>
+            <img src="./resources/anh/flow3-08.png" alt="" class="img2-p2">
+            <!--<label for="" class="lb3-p2">TIMELINE</label>
+             <div class="box-timeline">
+                <div class="timeline-item">
+                    <label for="" class="lb-timeline1">17:00</label>
+                    <img src="./resources/anh/icon1-08.png" alt="" class="img-timeline">
+                    <label for="" class="lb-timeline2">ĐÓN KHÁCH</label>
+                </div>
+
+                <div class="timeline-item">
+                    <label for="" class="lb-timeline1">17:30</label>
+                    <img src="./resources/anh/icon2-08.png" alt="" class="img-timeline">
+                    <label for="" class="lb-timeline2">LỄ THÀNH HÔN</label>
+                </div>
+
+                <div class="timeline-item">
+                    <label for="" class="lb-timeline1">18:00</label>
+                    <img src="./resources/anh/icon3-08.png" alt="" class="img-timeline">
+                    <label for="" class="lb-timeline2">KHAI TIỆC</label>
+                </div>
+            </div> -->
+        </div>
+           
+
+         <div class="box-xacnhan-thamdu">
+            <div class="box-thamdu11">
+                <img src="./resources/anh/thamdu.PNG" alt="" class="img-xntd1">
+            </div>
+            <div class="box-thamdu22">
+                <img src="./resources/anh/flow4-08.png" alt="" class="img-xntd22">
+            </div>
+         </div>
+            <form action="" name="resources">
+               <div class="til-label">
+                    <label for="" class="lb-til">HÃY XÁC NHẬN SỰ CÓ MẶT CỦA BẠN ĐỂ CHÚNG MÌNH CHUẨN BỊ <br> ĐÓN TIẾP MỘT CÁCH CHU ĐÁO NHẤT NHÉ!</label>
+               </div>
+                <div class="container-check">
+                    <input class="box-feed" type="radio" value="CÓ" id="yes" name="XÁC NHẬN">
+                    <label class="check-box" for="yes">
+                        <h3 class="til-check">NHẤT ĐỊNH ĐI</h3>
+                    </label>
+                    <input class="box-feed" type="radio" value="KHÔNG" id="no" name="XÁC NHẬN">
+                    <label class="check-box" for="no"> 
+                        <h3 class="til-check">KHÔNG ĐƯỢC RỒI</h3>
+                    </label>
+                </div>
+                
+                <div class="box-ten">
+                    <input required class="inp-ten" type="text"  name="TÊN" placeholder="Tên của bạn">
+                    <input required class="inp-ten" type="text" name="SỐ KHÁCH MỜI ĐI KÈM" placeholder="Số khách mời đi kèm" maxlength="1" title="Vui lòng nhập đúng 1 chữ số" pattern="\d" />
+                    <input required class="inp-ten" type="tel" name="SĐT" placeholder="Số điện thoại" maxlength="10" pattern="[0-9]{10}" title="Nhập đúng 10 chữ số" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
+                    <textarea id="loi-chuc" name="LỜI CHÚC" rows="4" cols="70" placeholder="Gửi lời nhắn đến cô dâu chú rể"></textarea>
+                </div>
+                <div class="wrapper">
+                    <button class="xacnhan" type="submit">XÁC NHẬN</button>
+                </div>
+            </form>
+
+            <div class="box-end">
+                <div class="box-imgend">
+                    <img src="./resources/anh/h-o-08.png" alt="" class="img-end11">
+                </div>
+                <label for="" class="lb-end1">QUÉT MÃ QR CODE DƯỚI ĐÂY ĐỂ GỬI <br>
+                QUÀ MỪNG CƯỚI DÀNH TẶNG CÔ DÂU VÀ CHÚ RỂ NHÉ!</label>
+                <a href="qr.html" class="btn-end">XEM MÃ QR</a>
+                <img src="./resources/anh/thank-08.png" alt="" class="img-end2">
+                <p class="p-end">Sự hiện diện của bạn là niềm vinh hạnh cho gia đình chúng tôi. Nếu kế hoạch của bạn có thay đổi gần ngày cưới, vui lòng cập nhật lại thông tin trên website này khi cần thiết. <br> <br>
+
+            Trong trường hợp có thay đổi bất ngờ, vui lòng liên hệ với cô dâu và chú rể qua số điện thoại sau: <br><span class="blue"><strong>Cô Dâu - 0396335959; Chú Rể - 0832857982</strong></span></p>
+            </div>
+           
+           
+        </div>
+    </div>
+    
+
+
+
+
+    <script>
+window.onload = function() {
+    // Lấy tất cả các phần tử cho các hiệu ứng
+    const fadeDownElements = document.querySelectorAll('.lb1-box, .lb2-p1, .lb3-p1, .lb4-p1, .lb1-p2, .lb2-p2, .box-timeline, .lb-til');
+    const fadeUpElements = document.querySelectorAll('.lb3-p2, .lb-add, .timeline, .in-fe, .container-check, .inp-ten, .lb-text, #loi-chuc');
+    const fadeRightElements = document.querySelectorAll('.lb1-p1, .img1');
+    const fadeLeftElements = document.querySelectorAll('.box-nam, .img2');
+    const zoomInElements = document.querySelectorAll('.dot-p1, .lb11-box, .img1-p2, .xacnhan');
+
+    // Cấu hình IntersectionObserver
+    const options = {
+        root: null, // Viewport
+        threshold: 0.2, // Kích hoạt khi 20% phần tử hiển thị
+        rootMargin: '30px' // Kích hoạt sớm hơn 30px
+    };
+
+    // Tạo IntersectionObserver
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            // Thêm độ trễ để giảm nhấp nháy
+            setTimeout(() => {
+                if (entry.isIntersecting) {
+                    // Thêm lớp visible khi phần tử xuất hiện
+                    entry.target.classList.add('visible');
+                } else {
+                    // Xóa lớp visible khi phần tử ra khỏi viewport
+                    entry.target.classList.remove('visible');
+                }
+            }, 100); // Độ trễ 100ms
+        });
+    }, options);
+
+    // Quan sát các phần tử
+    fadeDownElements.forEach(element => observer.observe(element));
+    fadeUpElements.forEach(element => observer.observe(element));
+    fadeRightElements.forEach(element => observer.observe(element));
+    fadeLeftElements.forEach(element => observer.observe(element));
+    zoomInElements.forEach(element => observer.observe(element));
+};
+
+    </script>
+    <script>
+const main = () => {
+  const second = 1000;
+  const minute = second * 60;
+  const hour = minute * 60;
+  const day = hour * 24;
+      
+  const EVENTDATE = new Date('December 27, 2025, 18:00:00');
+ 
+  const countDown = new Date(EVENTDATE).getTime();
+  const x = setInterval(() => {
+        const now = new Date().getTime();
+        const distance = countDown - now;
+
+        if (distance <= 0) {
+          clearInterval(x);
+          document.getElementById("days").innerText = 0;
+          document.getElementById("hours").innerText = 0;
+          document.getElementById("minutes").innerText = 0;
+          document.getElementById("seconds").innerText = 0;
+          return;
+        }
+
+        document.getElementById("days").innerText = Math.floor(distance / day);
+        document.getElementById("hours").innerText = Math.floor((distance % day) / hour);
+        document.getElementById("minutes").innerText = Math.floor((distance % hour) / minute);
+        document.getElementById("seconds").innerText = Math.floor((distance % minute) / second);
+      }, 1000); // Updated delay to 1000ms for smoother updates
+}
+
+main();
+    </script>
+<script>
+       const scriptURL = '';
+        const form = document.forms['resources'];
+
+        form.addEventListener('submit', e => {
+            e.preventDefault(); // Ngừng việc gửi form mặc định
+
+            document.getElementById('loading-container').style.display = 'flex';
+
+            // Gửi dữ liệu form đi
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Nếu dữ liệu gửi thành công, làm mới lại form
+                        form.reset(); // Làm mới lại form
+
+                        document.getElementById('loading-container').style.display = 'none';
+
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Thành công',
+                            text: 'Cảm ơn bạn đã gửi phản hồi, thông tin đã được gửi đến dâu rể rồi nhaa <3',
+                            imageWidth: 300,
+                            imageHeight: 200,
+                            confirmButtonText: 'ĐÓNG',
+                            background: '#f8f8f8',
+                            padding: '20px',
+                            customClass: {
+                                popup: 'custom-popup',
+                                title: 'custom-title',
+                                confirmButton: 'custom-confirm-button'
+                            },
+                            didOpen: () => {
+                                document.querySelector('.swal2-popup').style.borderRadius = '10px'; // Bo tròn các góc
+                            }
+                        });
+                    } else {
+                        // Nếu gặp lỗi khi gửi dữ liệu
+                        console.error('Error!', response);
+
+                        document.getElementById('loading-container').style.display = 'none';
+
+                        Swal.fire({
+                            title: 'Oops!',
+                            text: 'Lỗi mất rồi thử lại giúp chúng mình nhé',
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                })
+                .catch(error => {
+                    // Xử lý lỗi nếu có
+                    console.error('Error!', error.message);
+
+                    document.getElementById('loading-container').style.display = 'none';
+
+                    Swal.fire({
+                        title: 'Oops!',
+                        text: 'Lỗi mất rồi thử lại giúp chúng mình nhé',
+                        icon: 'error',
+                        confirmButtonText: 'OK'
+                    });
+                });
+        });
+</script>
+
+   <script>
+const musicCircle = document.getElementById("musicCircle");
+const audio = document.getElementById("audio");
+const videoIframe = document.getElementById("video");
+
+// Thêm sự kiện khi nhấn vào vòng tròn
+musicCircle.addEventListener("click", toggleMusic);
+
+// Hàm điều khiển việc phát hoặc tạm dừng nhạc
+function toggleMusic() {
+    if (audio.paused) {
+        audio.play(); // Phát nhạc
+        musicCircle.classList.add("spin"); // Bắt đầu xoay
+    } else {
+        audio.pause(); // Dừng nhạc
+        musicCircle.classList.remove("spin"); // Dừng xoay
+    }
+}
+
+// Tạo đối tượng YouTube Player API
+let player;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('video', {
+        events: {
+            'onStateChange': onPlayerStateChange
+        }
+    });
+}
+
+// Lắng nghe sự kiện trạng thái của video
+function onPlayerStateChange(event) {
+    // Khi video bắt đầu phát (state = 1), dừng nhạc và dừng xoay vòng tròn
+    if (event.data === YT.PlayerState.PLAYING) {
+        if (!audio.paused) {
+            audio.pause(); // Dừng nhạc
+            musicCircle.classList.remove("spin"); // Dừng xoay vòng tròn
+        }
+    }
+}
+
+// Tải API YouTube
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+</script>
+</body>
+</html>

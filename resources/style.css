@@ -1,0 +1,1348 @@
+@font-face {
+    font-family: 'MTD Great Vibes';
+    src: url('./fonts/MTD.woff2') format('woff2'),
+        url('./fonts/MTD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '1FTV Blushing Rose';
+    src: url('./fonts/1FTVBlushingRose.woff2') format('woff2'),
+        url('./fonts/1FTVBlushingRose.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UVN Ke Chuyen3';
+    src: url('./fonts/UVNKeChuyen3.woff2') format('woff2'),
+        url('./fonts/UVNKeChuyen3.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Book';
+    src: url('./fonts/SVN-GothamBook.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamBlack.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-Gotham.woff2') format('woff2'),
+        url('./fonts/SVN-Gotham.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamThin.woff2') format('woff2'),
+        url('./fonts/SVN-GothamThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamLight.woff2') format('woff2'),
+        url('./fonts/SVN-GothamLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Ultra';
+    src: url('./fonts/SVN-GothamUltra.woff2') format('woff2'),
+        url('./fonts/SVN-GothamUltra.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamBlackItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamLight.woff2') format('woff2'),
+        url('./fonts/SVN-GothamLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamBoldItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamBold.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamLightItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Book';
+    src: url('./fonts/SVN-GothamBookItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamBold.woff2') format('woff2'),
+        url('./fonts/SVN-GothamBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamLightItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Ultra';
+    src: url('./fonts/SVN-GothamUltraItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamUltraItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham XLight';
+    src: url('./fonts/SVN-GothamXLightItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamXLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham XLight';
+    src: url('./fonts/SVN-GothamXLight.woff2') format('woff2'),
+        url('./fonts/SVN-GothamXLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('./fonts/SVN-GothamThinItalic.woff2') format('woff2'),
+        url('./fonts/SVN-GothamThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '1FTV Blushing Rose';
+    src: url('./fonts/1FTVBlushingRose.woff2') format('woff2'),
+        url('./fonts/1FTVBlushingRose.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+
+:root{
+    --font-mtd: 'MTD Great Vibes';
+    --font-ftv: '1FTV Blushing Rose';
+    --font-uvn: 'UVN Ke Chuyen3';
+    --font-gotham: 'SVN-Gotham Book';
+    --primary-color: #195387;
+}
+
+
+
+/* Hiệu ứng fade-down */
+.lb1-box, .lb-inv, .lb2-p1, .lb3-p1, .lb4-p1, .lb1-p2, .lb2-p2, .box-timeline, .lb-til {
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: transform 0.7s ease-out, opacity 0.7s ease-out;
+}
+
+.lb1-box.visible, .lb-inv.visible, .lb2-p1.visible, .lb3-p1.visible, .lb4-p1.visible, .lb1-p2.visible, .lb2-p2.visible, .box-timeline.visible, .lb-til.visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Hiệu ứng fade-up */
+.lb3-p2, .lb-add, .timeline, .in-fe, .container-check, .inp-ten, .lb-text, #loi-chuc {
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 0.7s ease-out, opacity 0.7s ease-out;
+}
+
+.lb3-p2.visible, .lb-add.visible, .timeline.visible, .in-fe.visible, .container-check.visible, .inp-ten.visible, .lb-text.visible, #loi-chuc.visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Hiệu ứng fade-right */
+.lb1-p1, .img1 {
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: transform 0.7s ease-out, opacity 0.7s ease-out;
+}
+
+.lb1-p1.visible, .img1.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* Hiệu ứng fade-left */
+.box-nam, .img2 {
+    transform: translateX(50px);
+    opacity: 0;
+    transition: transform 0.7s ease-out, opacity 0.7s ease-out;
+}
+
+.box-nam.visible, .img2.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* Hiệu ứng zoom-in */
+.dot-p1, .lb11-box, .img1-p2, .xacnhan {
+    transform: scale(0.5);
+    opacity: 0;
+    transition: transform 0.7s ease-out, opacity 0.7s ease-out;
+}
+
+.dot-p1.visible, .lb11-box.visible, .img1-p2.visible, .xacnhan.visible {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Loading screen container */
+.loading-container {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+}
+
+/* Spinner animation */
+.spinner {
+	border: 6px solid rgba(255, 255, 255, 0.3);
+	border-top: 6px solid #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	animation: spin 1s linear infinite;
+}
+
+/* Spinner animation keyframes */
+@keyframes spin {
+	0% {
+			transform: rotate(0deg);
+	}
+	100% {
+			transform: rotate(360deg);
+	}
+}
+
+.custom-popup {
+	font-family: var(--font-gotham);
+}
+
+.custom-title {
+	font-weight: bold;
+}
+
+.custom-confirm-button {
+	text-align: center;
+	display: inline-block;
+	border: 2px solid #111;
+	padding: 10px 20px !important;
+	margin: 5px 20px !important;
+	border-radius: 20px !important;
+	font-style: normal;
+	background-color: transparent;
+	color: #111;
+
+	font-size: 13px;
+	font-weight: 400;
+
+	text-transform: uppercase;
+	font-weight: bold;
+}
+/* Spinner animation */
+.spinner {
+	border: 6px solid rgba(255, 255, 255, 0.3);
+	border-top: 6px solid #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	animation: spin 1s linear infinite;
+}
+
+.container{
+    width: 480px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #111;
+    color: var(--primary-color);
+}
+
+.container-wrapper{
+    width: 100%;
+}
+
+/* ====================HOME================= */
+
+
+.box-p1{
+    background-image: url('./anh/back-home-08.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--primary-color);
+    height: 700px;
+}
+
+.box-dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-dott{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.img-p11{
+    width: 5%;
+    margin-top: 120px;
+}
+
+.fa-circle{
+    font-size: 2px;
+    margin: 0 5px;
+}
+
+.lb1-dot{
+    font-family: var(--font-mtd);
+    font-size: 1.1em;
+    padding: 20px 0 10px;
+}
+
+.lb1-box{
+    font-family: var(--font-ftv);
+    font-size: 1.8em;
+    color: var(--primary-color);
+    /* margin-top: 20px; */
+    text-transform: uppercase;
+}
+
+.lb11-box{
+    font-family: var(--font-mtd);
+    font-size: 1em;
+    /* margin-top: 10px; */
+    margin: 5px 0;
+}
+
+.img-boxp1{
+    width: 10%;
+    margin: 70px 0;
+}
+
+.lb-dot2{
+    font-family: var(--font-mtd);
+    font-size: .8em;
+}
+.lb1-box1{
+    font-family: var(--font-gotham);
+    font-size: .3em;
+    margin-top: 5px;
+}
+
+.lb2-box1{
+    font-family: var(--font-gotham);
+    font-size: .5em;
+    margin-top: 5px;
+}
+
+.box-btn-top{
+    margin-bottom: 150px;
+}
+
+.btn-box {
+    width: 160px;
+    font-family: var(--font-gotham);
+    font-size: .4em;
+    color: var(--primary-color);
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+    padding: 4px 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    position: relative;
+    display: inline-block;
+    animation: bubbleZoom 1.7s ease-in-out infinite;
+}
+
+.btn-box:hover {
+    transform: scale(1.1);
+}
+
+@keyframes bubbleZoom {
+    0% {
+        transform: scale(.9);
+    }
+    50% {
+        transform: scale(.95);
+    }
+    100% {
+        transform: scale(.9);
+    }
+}
+
+.img-pp{
+    width: 100%;
+}
+
+.han{
+    font-size: 1.2em;
+}
+
+
+/* =======================P1=================== */
+
+.box-top, .box-p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.img1-p1{
+    width: 100%;
+}
+
+.img2-p1{
+    width: 10%;
+    margin-top: 10px;
+}
+
+.dot-p1{
+    font-family: var(--font-mtd);
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img3-p1{
+    width: 15%;
+    margin-top: 50px;
+}
+
+.lb1-p1{
+    font-family: var(--font-gotham);
+    font-size: .5em;
+    color: #111;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.lb1-p11{
+    font-family: var(--font-gotham);
+    font-size: .7em;
+    color: #111;
+    margin-top: 50px;
+}
+
+.lb2-p1{
+    font-family: var(--font-mtd);
+    font-size: 1em;
+    margin-top: 70px;
+}
+
+.lb3-p1{
+    font-family: var(--font-gotham);
+    font-size: .5em;
+    color: #111;
+}
+
+.lb3-p11{
+    font-family: var(--font-gotham);
+    font-size: .7em;
+    color: #111;
+}
+
+.lb4-p1{
+    font-family: var(--font-ftv);
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.box-calendar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 100px;
+}
+
+.lb-cal{
+    font-family: var(--font-mtd);
+    font-size: 1em;
+    padding-right: 20px;
+}
+
+.img-cal{
+    width: 100%;
+}
+
+/* ======================COUNTDOWN================= */
+.container-coutdown {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: .1em;
+}
+
+ul{
+    font-family: var(--font-gotham);
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: .7em;
+  padding: 1em;
+}
+
+li span {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+
+.img-hoaa{
+    width: 20%;
+    margin-top: 40px;
+}
+
+
+
+/* ================P2================= */
+.lb1-p2{
+    font-family: var(--font-ftv);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.lb2-p2{
+    font-family: var(--font-gotham);
+    font-size: .52em;
+    color: #111;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.lb2-p22{
+    font-family: var(--font-gotham);
+    font-size: .7em;
+    color: #111;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+.img1-p2{
+    width: 60%;
+    margin-top: 30px;
+}
+
+.btn-map{
+    font-family: var(--font-gotham);
+    text-decoration: none;
+    font-size: .5em;
+    color: #fff;
+    font-weight: bolder;
+    background: var(--primary-color);
+    padding: 3px 30px 4px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.img2-p2{
+    width: 10%;
+    margin-top: 50px;
+}
+
+.lb3-p2{
+    font-family: var(--font-ftv);
+    font-size: 1.7em;
+    margin-top: 20px;
+}
+
+.box-timeline{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.timeline-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #3A3A3A;
+}
+
+.lb-timeline1{
+    font-family: var(--font-gotham);
+    font-size: .6em;
+    font-weight: bolder;
+}
+
+.img-timeline{
+    width: 20%;
+    padding: 15px 0;
+}
+
+.lb-timeline2{
+    font-family: var(--font-gotham);
+    font-size: .6em;
+}
+
+
+
+
+
+
+
+
+
+
+.box-xacnhan-thamdu{
+    display: flex;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.box-xacnhan-thamdu1{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.box-thamdu1{
+    display: flex;
+    align-items: center;
+}
+
+.lbb-thamdu{
+    font-family: var(--font-gotham);
+    font-size: 1.5em;
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+.box-thamdu2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+
+.box-thamdu11 {
+    display: flex;
+    align-items: center;
+    flex: 0 0 70%; /* chiếm 70% */
+    padding-left: 10px;
+}
+
+.box-thamdu22 {
+    flex: 0 0 30%; /* chiếm 30% */
+    display: flex;
+    justify-content: flex-end; /* ảnh dồn về phải */
+}
+
+.box-thamdu23 {
+    flex: 0 0 30%; /* chiếm 30% */
+    display: flex;
+    justify-content: flex-end; /* ảnh dồn về phải */
+}
+
+.img-xntd2{
+    width: 30%;
+}
+.img-xntd22{
+    width: 60%;
+}
+
+.img-xntd1{
+    width: 100%;
+}
+/* ====FORM+============== */
+
+form{
+    color: var(--primary-color);
+    padding: 0 30px;
+}
+
+.lb-form1{
+    font-family: var(--font-aaron);
+    font-size: 2.5em;
+}
+
+.lb-dot{
+    font-size: .5em;
+    margin: 30px 0;
+}
+
+.til-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+}
+
+.lb-til{
+    font-family: var(--font-gotham);
+    font-size: .5em;
+    margin-bottom: 10px;
+}
+
+
+.lb-til1{
+    font-family: var(--font-gotham);
+    font-size: .7em;
+    margin-bottom: 10px;
+}
+
+
+[type="radio"] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    /* overflow: hidden; */
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    /* white-space: nowrap; */
+    }
+
+.container-check {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: var(--font-gotham);
+    font-weight: 300;
+    }
+    
+  
+.box-feed:checked+label {
+    color: #fff;
+    background-color: black;
+    }
+    
+.box-feed{
+  border-radius: 10px;
+  width: 100px;
+}
+    
+.box-check{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-lora);
+  border-radius: 20px;
+  /*margin: 0 15px;*/
+}
+
+.box-feed:checked+label {
+color: #fff;
+background-color: var(--primary-color);
+}
+.box-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lb-text{
+    font-family: var(--font-lora);
+    font-size: .7em;
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+}
+
+.til-check{
+  /* margin: 0 auto; */
+  font-style: normal;
+  font-size: .55em;
+  font-weight: 300;
+  }
+  
+
+.check-box {
+  width: 150px;
+  text-align: center;
+display: inline-block;
+border: 2px solid var(--primary-color);
+padding: 5px 10px;
+margin: 5px 20px;
+border-radius: 10px;
+font-style: normal;
+background-color: #fff;
+}
+.box-feed:checked+label {
+color: #fff;
+background-color: var(--primary-color);
+}
+.check-box:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+  .box-ten{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: var(--font-gotham);
+    margin: 10px 0 0;
+    }
+    
+    .inp-ten{
+    width: 350px;
+    height: 30px;
+    text-align: left;
+    border-radius: 10px;
+    border: 2px solid var(--primary-color);
+    font-size: 13px;
+    font-weight: 300;
+    padding: 5px 10px;
+    margin: 5px 0;
+    font-family: var(--font-gotham);
+    }
+
+ textarea {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: .75em;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    resize: vertical; /* Cho phép thay đổi chiều cao */
+    font-family: var(--font-gotham);
+    background-image: url('./anh/back-place-08.png'); /* Thay bằng URL hình ảnh của bạn */
+    background-size: cover; /* Điều chỉnh kích thước hình ảnh */
+    background-position: center; /* Căn giữa hình ảnh */
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    position: relative;
+}
+
+/* Placeholder styling */
+textarea::placeholder {
+    font-family: var(--font-gotham);
+    font-weight: 300;
+    font-size: .8em;
+    color: #333; /* Màu chữ placeholder để dễ đọc trên hình nền */
+    padding: 5px; /* Padding để chữ không sát mép */
+    border-radius: 10px; /* Bo góc nhẹ cho placeholder */
+    /* background: rgba(255, 255, 255, 0.3); Lớp nền mờ để placeholder nổi bật trên hình */
+}
+
+/* Xóa hình nền khi người dùng bắt đầu nhập */
+textarea:not(:placeholder-shown) {
+    background-image: none; /* Xóa hình nền khi không còn placeholder */
+    background-color: #fff; /* Màu nền mặc định khi nhập văn bản */
+}
+
+input::placeholder, textarea::placeholder{
+    font-family: var(--font-gotham);
+    font-weight: 300;
+    font-size: .8em;
+}
+
+
+    
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.xacnhan{
+    height: 30px;
+    font-size: .7em;
+    background: var(--primary-color);
+    color: #fff;
+    margin: 20px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    width: 150px;
+    font-weight: 300;
+    font-family: var(--font-gotham);
+}
+    
+    .xacnhan:hover{
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.box-end{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 0 0;
+    background-image: url('./anh/back-end-08.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    font-family: var(--font-gotham);
+}
+
+.box-end-korea{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 0 0;
+    background-image: url('./anh/back-end-08.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    font-family: var(--font-gotham);
+}
+
+.img-end11{
+    width: 25%;
+    margin-top: 150px;
+}
+
+.img-end12{
+    width: 25%;
+    margin-top: 100px;
+}
+.lb-end1{
+    font-size: .5em;
+    color: #111;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+
+.lb-end11{
+    font-size: .7em;
+    color: #111;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.btn-end{
+    text-decoration: none;
+    font-size: .7em;
+    color: #fff;
+    background: var(--primary-color);
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.img-end2{
+    width: 70%;
+    margin-top: 20px;
+}
+
+.p-end{
+    text-transform: uppercase;
+    font-size: .5em;
+    color: #111;
+    padding: 0 20px;
+    text-align: justify;
+    padding: 0 25px;
+    line-height: 17px;
+    margin: 20px 0 100px;
+    font-style: italic;
+}
+
+.p-endd{
+    text-transform: uppercase;
+    font-size: .7em;
+    color: #111;
+    padding: 0 20px;
+    text-align: justify;
+    padding: 0 20px;
+    line-height: 17px;
+    margin: 20px 0 70px;
+    font-style: italic;
+}
+
+
+.blue{
+    color: var(--primary-color);
+    font-weight: border;
+}
+
+
+
+/* ================================= */
+
+
+/* Đảm bảo box-circle luôn cố định và không ảnh hưởng đến nội dung trang */
+.box-circle {
+    position: fixed; /* Đảm bảo box-circle luôn cố định trên màn hình */
+    bottom: 20px; /* Đẩy box-circle xuống một chút từ trên cùng */
+    right: 20px; /* Căn box-circle về phía bên phải */
+    z-index: 9999; /* Đảm bảo box-circle nằm trên các phần tử khác */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .lb-circle {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #111;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-family: var(--font-gotham);
+    text-align: center;
+    line-height: 10px;
+  }
+  
+  /* Thêm hiệu ứng hover cho label */
+  .lb-circle:hover {
+    color: #3498db;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
+    overflow: hidden; /* Đảm bảo hình ảnh không bị tràn ra ngoài */
+    transition: transform 0.5s ease; /* Chuyển động mượt mà */
+    z-index: 2;
+  }
+  
+  /* Khi hình tròn được hover */
+  .circle:hover {
+    transform: scale(1.1); /* Tăng kích thước hình tròn khi hover */
+    /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); */
+  }
+  
+  /* Hình ảnh bên trong hình tròn */
+  .circle-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  /* Hiệu ứng xoay liên tục */
+  .circle.spin {
+    animation: spin 1s linear infinite; /* Xoay liên tục */
+  }
+  
+  /* Định nghĩa hoạt ảnh xoay */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .box-back{
+    background-image: url('../chien-diem/fonts/./anh/back-02.png');
+    padding-bottom: 50px;
+  }
+
+
+
+
+/* =================QR================ */
+
+
+.box-qr{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--primary-color);
+    background-image: url('./anh/back-home-08.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.qr-item, .qr-item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.qr-item1{
+    margin: 150px 0 50px;
+}
+
+.qr-item{
+    margin-bottom: 150px;
+}
+
+.qr-item11{
+    margin: 100px 0 50px;
+}
+
+.qr-item12{
+    margin: 20px 0 100px;
+}
+
+.name-qr{
+    font-weight: bolder;
+}
+
+.img-qr{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.lb-qr{
+    font-family: var(--font-gotham);
+    font-size: .6em;
+    font-weight: bold;
+    color: #111;
+    line-height: 15px;
+}
+
+.lb-qr1{
+    font-family: var(--font-gotham);
+    font-size: .8em;
+    font-weight: bold;
+    color: #111;
+    line-height: 15px;
+}
+
+
+.btn-back {
+  position: fixed; /* Fixes the button in place relative to the viewport */
+  top: 20px; /* Distance from the top of the viewport */
+  left: 20px; /* Distance from the left of the viewport */
+  z-index: 1000; /* Ensures the button stays above other content */
+  background-color: var(--primary-color); /* Button background color */
+  color: white; /* Text/icon color */
+  padding: 10px 15px; /* Padding for better appearance */
+  text-decoration: none; /* Removes underline from the link */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  display: flex; /* Aligns icon and text */
+  align-items: center; /* Centers icon and text vertically */
+  gap: 8px; /* Space between icon and text */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for "floating" effect */
+  transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+.btn-back:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
+
+/* ================================ */
+
+@media (max-width: 480px){
+    .container {
+        width: 100%;
+    }
+    .box-image{
+        margin-left: -15px;
+        
+    }
+    .form{
+        padding:  0 30px;
+    }
+    .kinhmoi{
+        font-size: .6em;
+    }
+    .inp-ten{
+        width: 90%;
+    }
+    textarea {
+        width: 90%;
+        padding: 10px;
+        font-size: .75em;
+    }
+    .lb1-box1{
+        font-size: 7px;
+    }
+    .btn-box{
+        font-size: 7px;
+    }
+
+    .box-end{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 0 0;
+    background-image: url('./anh/back-end-08.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    font-family: var(--font-gotham);
+}
+
+.box-end-korea{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 0 0;
+    background-image: url('./anh/back-end-08.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    font-family: var(--font-gotham);
+}
+
+    
+  }
+  
