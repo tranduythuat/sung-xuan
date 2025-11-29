@@ -582,20 +582,35 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    padding: 0 20px;
+    padding: 0 8%;
     margin-top: 100px;
+    position: relative;
+}
+
+.flower-caledar {
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 84px;
+    height: auto;
 }
 
 .lb-cal{
     font-family: var(--font-mtd);
     font-size: 1em;
-    padding-right: 20px;
+    margin-bottom: 5%;
+    /* padding-right: 20px; */
 }
 
 .img-cal{
     width: 100%;
 }
 
+@media (max-width: 480px) {
+    .flower-caledar {
+        width: calc((84 / 480) * 100vw);
+    }
+}
 /* ======================COUNTDOWN================= */
 .container-coutdown {
   margin: 0 auto;
