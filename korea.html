@@ -41,7 +41,7 @@
         <div class="container-wrapper">
             <div class="box-circle">
                 <div class="circle" id="musicCircle">
-                    <img src="././resources/anh/cd.png" alt="Music Icon" class="circle-image">
+                    <img src="././resources/anh/cd.png" id="musicIcon" alt="Music Icon" class="circle-image">
                     <audio id="audio" src="./resources/audio/maybe.mp3" loop></audio>
                 </div>
                 <label for="audio" class="lb-circle">No Music? <br> Click Me</label>
@@ -61,13 +61,17 @@
                 <label for="" class="lb1-p11">신랑 측: 부 박창훈, 모 Lê Thị Mỹ Tiên <br>
                     신부 측: 부 Đỗ Đức Hạnh </label>
                 <label for="" class="lb2-p1"></label>
-                <label for="" class="lb3-p11">
-                    서로가 서로의 깊은 연인이 되고 <br>
-                    평생의 친구가 되어주기로 약속했습니다.<br>
-                    오랜 시간 다져온 사랑과 믿음으로 <br>
-                    한 가정을 이루는 이 자리에 귀한 걸음 하시어 <br>
-                    축복해 주시면 더없는 기쁨으로 간직하겠습니다.
-                </label>
+
+                <div class="invitation">
+                    <p class="invitation-title">Invitation</p>
+                    <label for="" class="lb3-p11">
+                        서로가 서로의 깊은 연인이 되고 <br>
+                        평생의 친구가 되어주기로 약속했습니다.<br>
+                        오랜 시간 다져온 사랑과 믿음으로 <br>
+                        한 가정을 이루는 이 자리에 귀한 걸음 하시어 <br>
+                        축복해 주시면 더없는 기쁨으로 간직하겠습니다.
+                    </label>
+                </div>
                 <!-- <label for="" class="lb3-p11">신랑과 신부의 결혼식에 귀한 걸음을 하시어 함께 축복해 주시기 바랍니다.</label> -->
                 <label for="" class="lb4-p1">2025년12월27일 -- 오후 6시30분</label>
                 <div class="box-calendar">
@@ -333,7 +337,7 @@
     </script>
 
     <script>
-        const musicCircle = document.getElementById("musicCircle");
+        const musicCircle = document.getElementById("musicIcon");
         const audio = document.getElementById("audio");
         const videoIframe = document.getElementById("video");
 

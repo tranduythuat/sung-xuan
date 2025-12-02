@@ -548,6 +548,16 @@
     margin-top: 15%;
 }
 
+.invitation {
+    padding-bottom: 5%;
+}
+
+.invitation .invitation-title {
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-bottom: 10%;
+}
+
 .lb3-p1{
     font-family: var(--font-gotham);
     font-size: .5em;
@@ -559,6 +569,8 @@
     font-size: .7em;
     color: #111;
     margin-bottom: 5%;
+    line-height: 2.5;
+    letter-spacing: 0.075em;
 }
 
 .lb4-p1{
@@ -1107,23 +1119,24 @@ input::placeholder, textarea::placeholder{
 /* Đảm bảo box-circle luôn cố định và không ảnh hưởng đến nội dung trang */
 .box-circle {
     position: fixed; /* Đảm bảo box-circle luôn cố định trên màn hình */
-    bottom: 20px; /* Đẩy box-circle xuống một chút từ trên cùng */
-    right: 20px; /* Căn box-circle về phía bên phải */
+    bottom: 2%; /* Đẩy box-circle xuống một chút từ trên cùng */
+    right: 2%; /* Căn box-circle về phía bên phải */
     z-index: 9999; /* Đảm bảo box-circle nằm trên các phần tử khác */
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   
   .lb-circle {
-    margin-top: 10px;
+    margin-top: 6%;
     font-size: 10px;
     color: #111;
     cursor: pointer;
     transition: color 0.3s ease;
     font-family: var(--font-gotham);
     text-align: center;
-    line-height: 10px;
+    line-height: 1.2;
   }
   
   /* Thêm hiệu ứng hover cho label */
@@ -1137,7 +1150,7 @@ input::placeholder, textarea::placeholder{
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     cursor: pointer;
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
     overflow: hidden; /* Đảm bảo hình ảnh không bị tràn ra ngoài */
@@ -1153,14 +1166,15 @@ input::placeholder, textarea::placeholder{
   
   /* Hình ảnh bên trong hình tròn */
   .circle-image {
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    max-width: 50px;
+    aspect-ratio: 1;
     object-fit: cover;
   }
   
   /* Hiệu ứng xoay liên tục */
-  .circle.spin {
-    animation: spin 1s linear infinite; /* Xoay liên tục */
+  .circle-image.spin {
+    animation: spin 2s linear infinite; /* Xoay liên tục */
   }
   
   /* Định nghĩa hoạt ảnh xoay */
@@ -1177,9 +1191,6 @@ input::placeholder, textarea::placeholder{
     background-image: url('../chien-diem/fonts/./anh/back-02.png');
     padding-bottom: 50px;
   }
-
-
-
 
 /* =================QR================ */
 

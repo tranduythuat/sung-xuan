@@ -23,8 +23,13 @@
         font-size: calc((.9 / 31.25) * 100vw);
     }
 
+    .invitation {
+        font-size: calc((1 / 31.25) * 100vw);
+    }
+
     .lb3-p11 {
         font-size: calc((.7 / 31.25) * 100vw);
+        letter-spacing: calc((0.075 / 31.25) * 100vw);
     }
 
     .lb4-p1 {
@@ -62,5 +67,11 @@
     .lb-end11, .btn-end, .p-endd{
         font-size: calc((.7 / 31.25) * 100vw);
     }
+    .circle-image {
+        max-width: calc((3.125 / 31.25) * 100vw);
+    }
 
+    .lb-circle {
+        font-size: calc((0.625 / 31.25) * 100vw);
+    }
 }
