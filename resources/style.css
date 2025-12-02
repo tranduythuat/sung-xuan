@@ -548,7 +548,7 @@
 }
 .lb1-p11{
     font-family: var(--font-gotham);
-    font-size: .7em;
+    font-size: .9em;
     color: #111;
     margin-top: 50px;
 }
@@ -569,6 +569,7 @@
     font-family: var(--font-gotham);
     font-size: .7em;
     color: #111;
+    margin-bottom: 5%;
 }
 
 .lb4-p1{
@@ -589,7 +590,7 @@
 
 .flower-caledar {
     position: absolute;
-    top: 0;
+    top: -16%;
     left: 2%;
     width: 84px;
     height: auto;
@@ -691,7 +692,7 @@ li span {
 
 .img2-p2{
     width: 10%;
-    margin-top: 50px;
+    margin: 15% 0;
 }
 
 .lb3-p2{
