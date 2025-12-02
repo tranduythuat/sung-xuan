@@ -205,15 +205,6 @@
     font-display: swap;
 }
 
-
-
-
-
-
-
-
-
-
 :root{
     --font-mtd: 'MTD Great Vibes';
     --font-ftv: '1FTV Blushing Rose';
@@ -221,8 +212,6 @@
     --font-gotham: 'SVN-Gotham Book';
     --primary-color: #195387;
 }
-
-
 
 /* Hiệu ứng fade-down */
 .lb1-box, .lb-inv, .lb2-p1, .lb3-p1, .lb4-p1, .lb1-p2, .lb2-p2, .box-timeline, .lb-til {
@@ -362,7 +351,8 @@
 }
 
 .container{
-    width: 480px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -379,8 +369,6 @@
 }
 
 /* ====================HOME================= */
-
-
 .box-p1{
     background-image: url('./anh/back-home-08.png');
     background-position: center;
@@ -392,7 +380,8 @@
     justify-content: center;
     text-align: center;
     color: var(--primary-color);
-    height: 700px;
+    width: 100%;
+    aspect-ratio: 500 / 852;
 }
 
 .box-dot{
@@ -422,7 +411,7 @@
 .lb1-dot{
     font-family: var(--font-mtd);
     font-size: 1.1em;
-    padding: 20px 0 10px;
+    padding: 5% 0 10px;
 }
 
 .lb1-box{
@@ -437,12 +426,12 @@
     font-family: var(--font-mtd);
     font-size: 1em;
     /* margin-top: 10px; */
-    margin: 5px 0;
+    margin: 2% 0;
 }
 
 .img-boxp1{
-    width: 10%;
-    margin: 70px 0;
+    width: 15%;
+    margin: 17% 0;
 }
 
 .lb-dot2{
@@ -520,18 +509,18 @@
 
 .img1-p1{
     width: 100%;
+    height: auto;
 }
 
 .img2-p1{
-    width: 10%;
-    margin-top: 10px;
+    width: 15%;
+    margin-top: 5%;
 }
 
 .dot-p1{
     font-family: var(--font-mtd);
     font-size: 1.1em;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 15% 0;
 }
 
 .img3-p1{
@@ -548,15 +537,25 @@
 }
 .lb1-p11{
     font-family: var(--font-gotham);
-    font-size: .7em;
+    font-size: .9em;
     color: #111;
-    margin-top: 50px;
+    margin-top: 10%;
 }
 
 .lb2-p1{
     font-family: var(--font-mtd);
     font-size: 1em;
-    margin-top: 70px;
+    margin-top: 15%;
+}
+
+.invitation {
+    padding-bottom: 5%;
+}
+
+.invitation .invitation-title {
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-bottom: 10%;
 }
 
 .lb3-p1{
@@ -569,12 +568,15 @@
     font-family: var(--font-gotham);
     font-size: .7em;
     color: #111;
+    margin-bottom: 5%;
+    line-height: 2.5;
+    letter-spacing: 0.075em;
 }
 
 .lb4-p1{
     font-family: var(--font-ftv);
     font-size: 1.5em;
-    margin-top: 15px;
+    margin-top: 3%;
 }
 
 .box-calendar{
@@ -583,15 +585,15 @@
     align-items: flex-end;
     justify-content: center;
     padding: 0 8%;
-    margin-top: 100px;
+    margin-top: 20%;
     position: relative;
 }
 
 .flower-caledar {
     position: absolute;
-    top: 0;
+    top: -16%;
     left: 2%;
-    width: 84px;
+    width: 5.25em;
     height: auto;
 }
 
@@ -606,15 +608,16 @@
     width: 100%;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .flower-caledar {
         width: calc((84 / 480) * 100vw);
     }
-}
+} */
 /* ======================COUNTDOWN================= */
 .container-coutdown {
   margin: 0 auto;
   text-align: center;
+  width: 100%;
 }
 
 h1 {
@@ -630,7 +633,7 @@ li {
   display: inline-block;
   list-style-type: none;
   font-size: .7em;
-  padding: 1em;
+  padding: 2%;
 }
 
 li span {
@@ -642,7 +645,7 @@ li span {
 
 .img-hoaa{
     width: 20%;
-    margin-top: 40px;
+    margin-top: 7%;
 }
 
 
@@ -652,7 +655,7 @@ li span {
     font-family: var(--font-ftv);
     font-size: 1.5em;
     text-transform: uppercase;
-    margin-top: 100px;
+    margin-top: 20%;
 }
 
 .lb2-p2{
@@ -686,12 +689,12 @@ li span {
     background: var(--primary-color);
     padding: 3px 30px 4px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 5%;
 }
 
 .img2-p2{
     width: 10%;
-    margin-top: 50px;
+    margin: 15% 0;
 }
 
 .lb3-p2{
@@ -729,15 +732,6 @@ li span {
     font-family: var(--font-gotham);
     font-size: .6em;
 }
-
-
-
-
-
-
-
-
-
 
 .box-xacnhan-thamdu{
     display: flex;
@@ -1037,18 +1031,17 @@ input::placeholder, textarea::placeholder{
 
 .box-end-korea{
     width: 100%;
-    height: 800px;
+    aspect-ratio: 500 / 800;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 5px 0 0;
     background-image: url('./anh/back-end-08.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px;
+    padding: 6%;
     font-family: var(--font-gotham);
 }
 
@@ -1058,8 +1051,8 @@ input::placeholder, textarea::placeholder{
 }
 
 .img-end12{
-    width: 17%;
-    margin-top: 100px;
+    width: 23%;
+    margin-top: 20%;
 }
 .lb-end1{
     font-size: .5em;
@@ -1072,7 +1065,6 @@ input::placeholder, textarea::placeholder{
 .lb-end11{
     font-size: .7em;
     color: #111;
-    line-height: 20px;
     margin-top: 20px;
 }
 
@@ -1081,14 +1073,14 @@ input::placeholder, textarea::placeholder{
     font-size: .7em;
     color: #fff;
     background: var(--primary-color);
-    padding: 5px 20px;
+    padding: 1% 6%;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 8%;
 }
 
 .img-end2{
     width: 70%;
-    margin-top: 20px;
+    margin-top: 5%;
 }
 
 .p-end{
@@ -1107,11 +1099,9 @@ input::placeholder, textarea::placeholder{
     text-transform: uppercase;
     font-size: .7em;
     color: #111;
-    padding: 0 20px;
     text-align: justify;
-    padding: 0 20px;
-    line-height: 17px;
-    margin: 20px 0 70px;
+    margin: 10% 5%;
+    line-height: 1.5;
     font-style: italic;
 }
 
@@ -1129,23 +1119,24 @@ input::placeholder, textarea::placeholder{
 /* Đảm bảo box-circle luôn cố định và không ảnh hưởng đến nội dung trang */
 .box-circle {
     position: fixed; /* Đảm bảo box-circle luôn cố định trên màn hình */
-    bottom: 20px; /* Đẩy box-circle xuống một chút từ trên cùng */
-    right: 20px; /* Căn box-circle về phía bên phải */
+    bottom: 2%; /* Đẩy box-circle xuống một chút từ trên cùng */
+    right: 2%; /* Căn box-circle về phía bên phải */
     z-index: 9999; /* Đảm bảo box-circle nằm trên các phần tử khác */
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   
   .lb-circle {
-    margin-top: 10px;
+    margin-top: 6%;
     font-size: 10px;
     color: #111;
     cursor: pointer;
     transition: color 0.3s ease;
     font-family: var(--font-gotham);
     text-align: center;
-    line-height: 10px;
+    line-height: 1.2;
   }
   
   /* Thêm hiệu ứng hover cho label */
@@ -1159,7 +1150,7 @@ input::placeholder, textarea::placeholder{
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     cursor: pointer;
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
     overflow: hidden; /* Đảm bảo hình ảnh không bị tràn ra ngoài */
@@ -1175,14 +1166,15 @@ input::placeholder, textarea::placeholder{
   
   /* Hình ảnh bên trong hình tròn */
   .circle-image {
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    max-width: 50px;
+    aspect-ratio: 1;
     object-fit: cover;
   }
   
   /* Hiệu ứng xoay liên tục */
-  .circle.spin {
-    animation: spin 1s linear infinite; /* Xoay liên tục */
+  .circle-image.spin {
+    animation: spin 2s linear infinite; /* Xoay liên tục */
   }
   
   /* Định nghĩa hoạt ảnh xoay */
@@ -1199,9 +1191,6 @@ input::placeholder, textarea::placeholder{
     background-image: url('../chien-diem/fonts/./anh/back-02.png');
     padding-bottom: 50px;
   }
-
-
-
 
 /* =================QR================ */
 
@@ -1295,8 +1284,8 @@ input::placeholder, textarea::placeholder{
 
 /* ================================ */
 
-@media (max-width: 480px){
-    .container {
+@media (max-width: 500px){
+    /* .container {
         width: 100%;
     }
     .box-image{
@@ -1325,39 +1314,21 @@ input::placeholder, textarea::placeholder{
     }
 
     .box-end{
-    width: 100%;
-    height: 650px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 5px 0 0;
-    background-image: url('./anh/back-end-08.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40px;
-    font-family: var(--font-gotham);
-}
-
-.box-end-korea{
-    width: 100%;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 5px 0 0;
-    background-image: url('./anh/back-end-08.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40px;
-    font-family: var(--font-gotham);
-}
-
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 5px 0 0;
+        background-image: url('./anh/back-end-08.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 40px;
+        font-family: var(--font-gotham);
+    } */
     
-  }
+}
   

@@ -1,0 +1,77 @@
+@media (max-width: 31.25em) {
+
+    .dot-p1, .lb1-dot {
+        font-size: calc((1.1 / 31.25) * 100vw);
+    }
+
+    .btn-box {
+        width: calc((10 / 31.25) * 100vw);
+        font-size: calc((.4 / 31.25) * 100vw);
+        letter-spacing: calc((0.063 / 31.25) * 100vw);
+    }
+    
+
+    .lb1-box {
+        font-size: calc((1.8 / 31.25) * 100vw);
+    }
+
+    .lb11-box {
+        font-size: calc((1 / 31.25) * 100vw);
+    }
+
+    .lb1-p11 {
+        font-size: calc((.9 / 31.25) * 100vw);
+    }
+
+    .invitation {
+        font-size: calc((1 / 31.25) * 100vw);
+    }
+
+    .lb3-p11 {
+        font-size: calc((.7 / 31.25) * 100vw);
+        letter-spacing: calc((0.075 / 31.25) * 100vw);
+    }
+
+    .lb4-p1 {
+        font-size: calc((1.5 / 31.25) * 100vw);
+    }
+
+    .flower-caledar {
+        width: calc((5.25 / 31.25) * 100vw);
+    }
+
+    /* ======================COUNTDOWN================= */
+    h1 {
+        letter-spacing: calc((.1 / 31.25) * 100vw);
+    }
+
+    li {
+        font-size: calc((.7 / 31.25) * 100vw);
+    }
+
+    li span {
+        font-size: calc((2.5 / 31.25) * 100vw);
+    }
+
+    .lb1-p2{
+        font-size: calc((1.5 / 31.25) * 100vw);
+    }
+    .lb2-p22{
+        font-size: calc((.7 / 31.25) * 100vw);
+    }
+
+    .btn-map{
+        font-size: calc((.5 / 31.25) * 100vw);
+    }
+    
+    .lb-end11, .btn-end, .p-endd{
+        font-size: calc((.7 / 31.25) * 100vw);
+    }
+    .circle-image {
+        max-width: calc((3.125 / 31.25) * 100vw);
+    }
+
+    .lb-circle {
+        font-size: calc((0.625 / 31.25) * 100vw);
+    }
+}
